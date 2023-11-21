@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "BitSeq tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": " pytest -rap -k TestHTree ",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Freq Table tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rap -k TestFreqTable",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "HTree tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rap -k TestHTree",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Lookup Table tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rap -k TestLookupTable",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Encoder tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rap -k TestEncoder",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Decoder tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rap -k TestDecoder",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
